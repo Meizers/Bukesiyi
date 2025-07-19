@@ -1,0 +1,12 @@
+[CustomSkin]
+ChatFont=Fonts\Font.ttf
+CommandButtonCooldown=interface\cooldown ui.mdx
+Cursor=war3mapImported\humancursor.mdx
+EscMenuTextFont=Fonts\Font.ttf
+InfoPanelTextFont=Fonts\Font.ttf
+MasterFont=Fonts\Font.ttf
+MessageFont=Fonts\Font.ttf
+TargetPointConfirm=point target.mdx
+TargetUnitConfirm=point target.mdx
+TextTagFont=Fonts\Font.ttf
+

@@ -1,0 +1,13 @@
+global.window.FS = require('@ldcv/stormjs').FS;
+global.window.MPQ = require('@ldcv/stormjs').MPQ;
+global.window.tokenizer = require('../utils/tokenizer');;
+global.window.listfile = require('fs').readFileSync('utils/listfile.txt').toString().split(/\r?\n/);
+global.window.Maps = require('../utils/maps');
+global.window.WMap = require('../utils/map');
+global.window.scanMap = require('./findListFile').scanMap;
+global.window.serialize = require('../utils/utils').serialize;
+global.window.deserialize = require('../utils/utils').deserialize;
+global.window.exportTokens = require('../plugins/exportTokens');
+global.window.importTokens = require('../plugins/importTokens');
+global.window.exportToWar = require('../toWar').exportToWar;
+global.window.filesToExport = require('../config.js');
